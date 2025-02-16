@@ -1,8 +1,8 @@
-// 메인 현재상영작(movNow)
+// 메인 현재상영작(movNow)/더보기
 import React from "react";
 import { Link } from "react-router-dom";
 
-const MovieCard = ( {id, poster, title, name, titleEn, titleOr, vote} ) => {
+const MovieNowCard = ( {id, poster, title, name, titleEn, titleOr, vote} ) => {
   return (
     <>
       <li key={id}>
@@ -17,4 +17,4 @@ const MovieCard = ( {id, poster, title, name, titleEn, titleOr, vote} ) => {
   );
 };
 
-export default MovieCard;
+export default MovieNowCard;

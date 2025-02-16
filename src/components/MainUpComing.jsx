@@ -1,4 +1,4 @@
-// 메인 개봉상영작(movComing)
+// 메인 개봉상영작(movComing)/포스터
 import React from 'react';
 
 import { useState, useEffect } from "react";
@@ -13,7 +13,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 
-const UpComing = () => {
+const MainUpComing = () => {
   const APIKEY = process.env.REACT_APP_API_KEY;
 
   const [nextMov,setNextMov] = useState([]);
@@ -86,4 +86,4 @@ const UpComing = () => {
   );
 };
 
-export default UpComing;
+export default MainUpComing;
